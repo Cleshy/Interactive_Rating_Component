@@ -1,0 +1,237 @@
+/* ============== *\
+   Variables
+\* ============== */
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --body-font-size: 1.5rem;
+}
+
+/* ============== *\
+   Base
+\* ============== */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  color: var(--white);
+  font-size: var(--body-font-size);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+  position: relative;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 2.25rem;
+  line-height: 1.9rem;
+  letter-spacing: 2px;
+  padding: 1.1rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--submit {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.btn--submit:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+.btn--close {
+  display: inline-block;
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.btn--close:hover {
+  background-color: var(--light-grey);
+}
+
+/* ============== *\
+   Card
+\* ============== */
+
+.card {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  width: 41.2rem;
+  height: 41.6rem;
+  padding: 3.2rem;
+  padding-right: 4rem;
+  border-radius: 3rem;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+}
+
+.card-desc {
+  color: var(--light-grey);
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+/* ============== *\
+   Welcom Card
+\* ============== */
+
+.card-ratings {
+  color: var(--light-grey);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.rating-form {
+  width: 100%;
+}
+
+.radio-inputs {
+  margin-bottom: 3.2rem;
+}
+
+.shadow-circle {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.shadow-circle:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+/* ============== *\
+   Thanks Card
+\* ============== */
+
+.rounded {
+  border-radius: 2.25rem;
+  color: var(--orange);
+  padding: 0.8rem 2rem 0.5rem 2rem;
+}
+
+.rating:checked + label {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.rating {
+  display: none;
+}
+
+.thank-you-desc {
+  color: var(--light-grey);
+  margin-top: 1.5rem;
+}
+
+.rating {
+  color: var(--orange);
+  padding: 0.4rem 1.9rem;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+/* ============== *\
+   Modal
+\* ============== */
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 5rem 4rem;
+  background-color: var(--dark-blue);
+  border-radius: 3rem;
+  width: 41.2rem;
+}
+
+/* ============== *\
+   Utilities
+\* ============== */
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.pb-2 {
+  padding-bottom: 2.4rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-gray {
+  background-color: var(--dark-blue);
+}
+
+.hidden {
+  display: none;
+}
