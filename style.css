@@ -44,6 +44,7 @@ body {
 }
 
 .btn {
+  font-weight: 700;
   width: 100%;
   border-radius: 2.25rem;
   line-height: 1.9rem;
@@ -127,6 +128,7 @@ body {
   height: 5rem;
   width: 5rem;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .shadow-circle:hover {
@@ -194,6 +196,14 @@ input[type="radio"]:checked {
 
 .mb-2 {
   margin-bottom: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
 }
 
 .pb-2 {
