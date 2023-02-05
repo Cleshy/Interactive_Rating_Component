@@ -27,6 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
+Screenshots are in the screenshot folder. I dunno why they doesn't appear here. ✨
+
 ![](screenshots/desktop_2.PNG)
 ![](screenshots/desktop_3.PNG)
 ![](screenshots/desktop_4.PNG)
@@ -36,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-html-and-css-and-js-bonus-feature-NKUP6zCxM1)
+- Live Site URL: [Netlify](https://capable-gaufre-8cc57a.netlify.app/)
 
 ## My process
 
